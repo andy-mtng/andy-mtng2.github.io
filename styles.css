@@ -162,6 +162,8 @@ a {
 
 #hamburger-menu-close-button {
     cursor: pointer;
+    width: 16px;
+    height: 16px;
 }
 
 @media (max-width: 1000px), (min-width: 1000px) {
