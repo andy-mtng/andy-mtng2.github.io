@@ -132,6 +132,9 @@ a {
     margin-left: 16px;
 }
 
+.hamburger-menu {
+    display: none;
+}
 
 @media (max-width: 1000px), (min-width: 1000px) {
     .project-container {
@@ -154,6 +157,30 @@ a {
         row-gap: 24px;
         justify-content: center;
         align-items: center;
+    }
+
+    .nav-bar-part-two {
+        display: none;
+    }
+      
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 72px;
+        top: 48px;
+    }
+      
+    .hamburger-menu span {
+        background-color: black;
+        display: block;
+        height: 4px;
+        margin-bottom: 8px;
+        width: 30px;
+    }
+      
+    .hamburger-menu span:last-child {
+        margin-bottom: 0;
     }
 }
 
