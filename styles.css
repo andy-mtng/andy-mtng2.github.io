@@ -90,24 +90,10 @@ a {
     margin: 128px 72px 32px;
 }
 
-#twitter-logo {
-    width: 25px;
-    height: 25px;
-}
-
-#linkedin-logo {
-    width: 25px;
-    height: 25px;
-}
-
-#github-logo {
-    width: 25px;
-    height: 25px;
-}
-
 .contact-info-logo {
     width: 25px;
     height: 25px;
+    fill: black;
 }
 
 #email-contact {
