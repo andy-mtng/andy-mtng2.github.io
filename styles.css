@@ -224,5 +224,22 @@ a {
         justify-content: center;
         align-items: center;
     }
+
+    .page-content {
+        margin: 128px 36px 32px;
+    }
+
+    .nav-bar {
+        margin: 24px 36px 0px;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 36px;
+        top: 24px;
+    }
+    
 }
 
