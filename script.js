@@ -8,5 +8,6 @@ hamburger.addEventListener("click", () => {
 
 hamburgerMenuCloseButton.addEventListener("click", () => {
     hamburgerMenu.style.display = "none";
-})
+});
+
 

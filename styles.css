@@ -100,6 +100,16 @@ a {
     height: 25px;
 }
 
+#github-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.contact-info-logo {
+    width: 25px;
+    height: 25px;
+}
+
 #email-contact {
     margin-bottom: 12px;
 }
@@ -234,9 +244,11 @@ a {
     }
 
     .hamburger-menu {
-        display: block;
-        cursor: pointer;
-        position: absolute;
+        right: 36px;
+        top: 24px;
+    }
+
+    .hamburger-menu-items {
         right: 36px;
         top: 24px;
     }
